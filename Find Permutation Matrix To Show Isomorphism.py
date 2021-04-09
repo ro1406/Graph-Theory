@@ -13,7 +13,7 @@ A1=[]
 A2=[]
 print("Enter the matrix A1: ")
 for i in range(size):
-    A1.append([int(x) for x in input().strip()])   #list(map(int,input().split()))
+    A1.append([int(x) for x in input().strip()])
     
 print("\nEnter the matrix A2: ")
 for i in range(size):
